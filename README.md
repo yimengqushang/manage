@@ -2,7 +2,7 @@
 
 ## 技术栈
 
-vue2 + vueRouter + axios +VueCli + Echarts + Bootstrap
+### vue2 + vueRouter + axios +VueCli + Echarts + Bootstrap
 
 有些数据则是用 Apifox 的 mock 构造的假数据
 
