@@ -1,9 +1,9 @@
 <template>
   <div>
     <h4 class="text-center">数据详情</h4>
+    <ChartPie />
     <ChartDate />
     <ChartRightPie />
-    <ChartPie />
   </div>
 </template>
 

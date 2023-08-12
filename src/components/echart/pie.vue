@@ -13,7 +13,7 @@ export default {
             const chart = this.$echarts.init(chartDom)
 
             chart.setOption({
-                backgroundColor: '#2c343c',
+                backgroundColor: '#3a5e76',
                 title: {
                     text: '人员分布',
                     left: 'center',
@@ -50,11 +50,11 @@ export default {
                         }),
                         roseType: 'radius',
                         label: {
-                            color: 'rgba(255, 255, 255, 0.6)'
+                            color: 'rgba(255, 255, 255, 0.4)'
                         },
                         labelLine: {
                             lineStyle: {
-                                color: 'rgba(255, 255, 255, 0.6)'
+                                color: 'rgba(255, 255, 255, 0.4)'
                             },
                             smooth: 0.2,
                             length: 10,
@@ -87,8 +87,8 @@ export default {
   
 <style lang="less" scoped>
 #total-orders-chart {
-    top: 140px;
+    top: 40px;
     width: 100%;
-    height: 500px;
+    height: 300px;
 }
 </style>

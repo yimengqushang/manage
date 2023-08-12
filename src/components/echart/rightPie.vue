@@ -51,8 +51,10 @@ export default {
   },
   mounted() {
     this.MyChartRightPie()
+  },
+  beforeDestroy() {
+    window.removeEventListener('resize', myChartRightPie.resize);
   }
-
 }
 </script>
 
