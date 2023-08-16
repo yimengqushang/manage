@@ -77,7 +77,7 @@ export default {
     position: absolute;
     left: 0;
     top: 0;
-    background-color: #42b983;
+    background-color: mediumspringgreen
   }
 }
 </style>
